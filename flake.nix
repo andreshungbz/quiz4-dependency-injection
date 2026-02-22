@@ -28,6 +28,7 @@
               pkgs.impl
               pkgs.delve
               pkgs.gotools
+              pkgs.gnumake
               pkgs.zsh
             ];
 
