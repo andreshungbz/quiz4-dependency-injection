@@ -11,8 +11,8 @@ package main
 // 2) Adding a global attribute .With("environment", "production")
 
 func main() {
-	orderService := OrderService{}
-	paymentService := PaymentService{}
+	orderService := Order{}
+	paymentService := Payment{}
 
 	orderService.Process()
 	paymentService.Pay()

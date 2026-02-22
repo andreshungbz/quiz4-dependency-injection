@@ -2,19 +2,19 @@ package main
 
 import "log/slog"
 
-type OrderService struct {
+type Order struct {
 	// stores a pointer to slog.Logger
 	logger *slog.Logger
 }
 
 // "constructor" function where the logger dependency is injected.
-func NewOrderService(logger *slog.Logger) *OrderService {
-	return &OrderService{
+func NewOrder(logger *slog.Logger) *Order {
+	return &Order{
 		logger: logger,
 	}
 }
 
-func (s *OrderService) Process() {
+func (s *Order) Process() {
 	// The logger dependency isn't directly created anymore
 	s.logger.Info("processing order")
 }

@@ -5,11 +5,11 @@ import (
 	"os"
 )
 
-// PaymentService depends on slog.Logger. It is tightly coupled.
+// Payment depends on slog.Logger. It is tightly coupled.
 
-type PaymentService struct{}
+type Payment struct{}
 
-func (s *PaymentService) Pay() {
+func (s *Payment) Pay() {
 	// dependency directly created
 	logger := slog.New(slog.NewTextHandler(os.Stdout, nil))
 

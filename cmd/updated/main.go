@@ -26,9 +26,9 @@ func main() {
 	).With("environment", "production")
 
 	// using the "constructor" functions to inject the dependency into the service
-	orderService := NewOrderService(jsonLogger)
-	paymentService := NewPaymentService(jsonLogger)
+	order := NewOrder(jsonLogger)
+	payment := NewPayment(jsonLogger)
 
-	orderService.Process()
-	paymentService.Pay()
+	order.Process()
+	payment.Pay()
 }
