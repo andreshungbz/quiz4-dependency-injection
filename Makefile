@@ -18,10 +18,15 @@ help:
 # DEVELOPMENT
 # ==================================================================================== #
 
-## run: Run the application
-.PHONY: run
-run:
-	@go run .
+## run/original: Run the original application
+.PHONY: run/original
+run/original:
+	@go run ./cmd/original
+
+## run/updated: Run the updated application
+.PHONY: run/updated
+run/updated:
+	@go run ./cmd/updated
 
 # ==================================================================================== #
 # QUALITY CONTROL
