@@ -2,11 +2,11 @@
 
 ## YouTube Demo
 
-{pending}
+https://youtu.be/npJOCuTGANY
 
 ## Presentation Slides
 
-{pending}
+https://docs.google.com/presentation/d/1Y1moiuV3GRpnbKKTH6csjDGJPsunErxxFd1vZUNRvDM/edit?usp=sharing
 
 ## Dependency Injection
 
