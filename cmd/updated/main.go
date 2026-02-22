@@ -18,7 +18,7 @@ import (
 
 func main() {
 	// textLogger := slog.New(
-	// 	slog.NewJSONHandler(os.Stdout, nil),
+	// 	slog.NewTextHandler(os.Stdout, nil),
 	// ).With("environment", "production")
 
 	jsonLogger := slog.New(
